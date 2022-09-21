@@ -1,5 +1,66 @@
+html{
+    background-color: bisque;
+}
+
 p{
     color: red;
     font-size: 20px;
     font-family: monospace; 
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.italic_text{
+    font-style: italic
+}
+
+#gingerbeeflogo{
+    height: 150px;
+}
+
+img{
+    height: 250px;
+}
+
+nav > a{
+    background-color: darkgray;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,section > p{
+    background-color: blueviolet;
+    color: white;
+}
+
+iframe ~ p{
+    border-width: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+
+p:hover{
+    color: orange;
+    border: dashed 3px lime;
+}
+
+p:active{
+    font-size: 30px;
+}
+
+img:active{
+    height: 450px;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: blue;
 }
